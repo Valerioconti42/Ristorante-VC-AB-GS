@@ -70,8 +70,8 @@ Permessi:
 ## FASE 2: ANALISI DEI CASI D'USO
 
 ### 2.1 Elenco delle Operazioni per Entità
-```
 **UTENTE:**
+```
 1. Registrarsi nel sistema
 2. Effettuare login
 3. Visualizzare classifica ristoranti
@@ -82,8 +82,9 @@ Permessi:
 8. Filtrati i ristoranti
 9. Creare un ristorante
 10. Modificare il proprio profilo
-
+```
 **UTENTE CON RISTORANTE:**
+```
 1. Effettuare login
 2. Visualizzare classifica ristoranti
 3. Visualizzare dettagli di un ristotante
