@@ -1,0 +1,7 @@
+Media recensioni, quando calcolare? /TRIGGER/
+Contenuto recensioni
+Ristoranti gestiti da utente a ristorante
+Recensioni pubblicate /RIMUOVERE/
+Tipo utente /LO SAPEVO CHE SAREBBE SERVITO!!!/
+Opzione di tipo utente nel login
+Fee per creare un ristorante
