@@ -119,7 +119,7 @@ Permessi:
 5. Sistema invia notifica che il ristorante è stato pubblicato oppure dà un errore se dei dati sono mancanti
 6. Utente ora può modificare il ristorante
 
-```
+
 
 ---
 
