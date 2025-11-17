@@ -70,7 +70,7 @@ Permessi:
 ## FASE 2: ANALISI DEI CASI D'USO
 
 ### 2.1 Elenco delle Operazioni per Entità
-
+```
 **UTENTE:**
 1. Registrarsi nel sistema
 2. Effettuare login
@@ -94,9 +94,8 @@ Permessi:
 8. Creare un ristorante
 9. Modifica del proprio ristorante 
 10. Modificare il proprio profilo
----
 ```
-
+---
 ### 2.2 Flussi di Business
 
 **FLUSSO 1: Pubblicare recensione**
@@ -118,7 +117,7 @@ Permessi:
 4. Utente pubblica ristorante
 5. Sistema invia notifica che il ristorante è stato pubblicato oppure dà un errore se dei dati sono mancanti
 6. Utente ora può modificare il ristorante
-
+```
 
 
 ---
@@ -132,6 +131,7 @@ Permessi:
 - /Utenti
 - /Recensioni
 - /Ristoranti
+```
 
 **Risorse annidate:**
 ```
@@ -154,7 +154,7 @@ Permessi:
 ---
 
 ### 3.2 Mappatura Operazioni → Metodi HTTP
-
+```
 | Operazione | Metodo HTTP | Endpoint | Accesso |
 |------------|-------------|----------|---------|
 | Registrazione utente | POST | `/api/v1/auth/registrazione` | Pubblico |
@@ -168,5 +168,5 @@ Permessi:
 | Lista recensioni | GET | `/api/v1/ristoranti/{id}/recensioni` | Recensioni |
 | Creare ristorante | POST | `/api/v1/ristoranti/crea` | Ristorante |
 | Modifica ristorante | PATCH | `/api/v1/ristoranti/{id}/modifca` | Ristorante |
-
+```
 ---
