@@ -21,7 +21,7 @@ I proprietari di ristoranti possono registrarsi e accedere, inserire il ristoran
 ```
 ENTITÀ IDENTIFICATE:
 - Ristorante (id, nome, capienza, orari, posizione_via, media_recensioni)
-- Recensione (id, voto, immagine, autore, data, ristorante_recensito)
+- Recensione (id, voto, immagine, contenuto, autore, data, ristorante_recensito)
 - Utente (id, email, password, recensioni_pubblicate, ristoranti_gestiti)
 ```
 
@@ -51,7 +51,7 @@ Permessi:
   - Filtrare ristoranti
   - Pubblicare, cancellare e modificare recensioni
   - Creare un ristorante
-  - Modificare il proprio profilo
+  - Modificare il proprio profilo\
 
 RUOLO: Utente con ristorante
 Permessi:
@@ -95,6 +95,7 @@ Permessi:
 8. Creare un ristorante
 9. Modifica del proprio ristorante 
 10. Modificare il proprio profilo
+11. Visualizzare ristoranti gestiti
 ```
 ---
 ### 2.2 Flussi di Business
@@ -138,7 +139,7 @@ Permessi:
 ```
 - /Utenti/Registrazione
 - /Utenti/Login
-- /Ristoranti/Creare
+- /Ristoranti/Creare_con_fee
 - /RistorantI/Modificare
 - /Recensioni/Creare
 - /Recensioni/Modificare
@@ -149,7 +150,7 @@ Permessi:
 **Risorse speciali:**
 ```
 - /auth/registrazione
-- /auth/login
+- /auth/login_as
 ```
 
 ---
@@ -164,6 +165,7 @@ Permessi:
 | Classifica ristoranti | GET | `/api/v1/ristoranti` | Pubblico/Autenticato |
 | Informazioni ristorante | GET | `/api/v1/ristoranti/{id}` | Pubblico/Autenticato |
 | Creare recensione | POST | `/api/v1/recensioni` | Recensione |
+| Cancellare recensione | DELETE | `/api/v1/recensioni/{id}` | Recensione |
 | Modificare recensione | PUT/PATCH | `/api/v1/recensioni` | Recensione (proprie) |
 | Cancella recensione | DELETE | `/api/v1/recensioni/{id}` | Recensione (proprie) |
 | Lista recensioni | GET | `/api/v1/ristoranti/{id}/recensioni` | Recensioni |
