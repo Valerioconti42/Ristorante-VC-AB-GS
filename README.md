@@ -51,7 +51,7 @@ Permessi:
   - Filtrare ristoranti
   - Pubblicare, cancellare e modificare recensioni
   - Creare un ristorante
-  - Modificare il proprio profilo\
+  - Modificare il proprio profilo
 
 RUOLO: Utente con ristorante
 Permessi:
