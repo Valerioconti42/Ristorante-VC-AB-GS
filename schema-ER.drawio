@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="29.1.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.2">
   <diagram id="LUvtP5oW9eMti9Ljsox8" name="Page-1">
-    <mxGraphModel dx="786" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,17 +51,7 @@
         </mxCell>
         <mxCell id="QN3f4q6NEBNZfliWjlqr-135" connectable="0" parent="QN3f4q6NEBNZfliWjlqr-134" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="posizione_via" vertex="1">
           <mxGeometry relative="1" x="0.4" as="geometry">
-            <mxPoint x="-29" y="-16" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="QN3f4q6NEBNZfliWjlqr-136" edge="1" parent="1" source="2" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=oval;endFill=0;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="140" y="240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="QN3f4q6NEBNZfliWjlqr-137" connectable="0" parent="QN3f4q6NEBNZfliWjlqr-136" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="media_recensioni" vertex="1">
-          <mxGeometry relative="1" x="0.3405" y="1" as="geometry">
-            <mxPoint x="-70" y="7" as="offset" />
+            <mxPoint x="-39" y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ristorante" vertex="1">
@@ -122,9 +112,9 @@
             <mxPoint x="180" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QN3f4q6NEBNZfliWjlqr-118" connectable="0" parent="QN3f4q6NEBNZfliWjlqr-117" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="ristorante_gestito" vertex="1">
+        <mxCell id="QN3f4q6NEBNZfliWjlqr-118" connectable="0" parent="QN3f4q6NEBNZfliWjlqr-117" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="ristorante_recensito" vertex="1">
           <mxGeometry relative="1" x="-0.1" y="2" as="geometry">
-            <mxPoint x="-61" as="offset" />
+            <mxPoint x="-71" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Recensione" vertex="1">
@@ -158,16 +148,6 @@
         <mxCell id="QN3f4q6NEBNZfliWjlqr-101" connectable="0" parent="QN3f4q6NEBNZfliWjlqr-100" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="password" vertex="1">
           <mxGeometry relative="1" x="0.1655" as="geometry">
             <mxPoint x="20" y="39" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="QN3f4q6NEBNZfliWjlqr-102" edge="1" parent="1" source="5" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=oval;endFill=0;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="500" y="430" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="QN3f4q6NEBNZfliWjlqr-103" connectable="0" parent="QN3f4q6NEBNZfliWjlqr-102" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="recensioni pubblicate" vertex="1">
-          <mxGeometry relative="1" x="0.05" y="1" as="geometry">
-            <mxPoint x="-36" y="33" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QN3f4q6NEBNZfliWjlqr-104" edge="1" parent="1" source="5" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=oval;endFill=0;">
