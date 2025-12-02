@@ -22,7 +22,7 @@ I proprietari di ristoranti possono registrarsi e accedere, inserire il ristoran
 ENTITÀ IDENTIFICATE:
 - Ristorante (id, nome, capienza, orari, posizione_via, media_recensioni)
 - Recensione (id, voto, immagine, contenuto, autore, data, ristorante_recensito)
-- Utente (id, email, password, recensioni_pubblicate, ristoranti_gestiti)
+- Utente (id, email, password, ristoranti_gestiti)
 ```
 
 **Relazioni:**
@@ -79,7 +79,7 @@ Permessi:
 5. Pubblicare una recensione
 6. Modificare una recensione già esistente
 7. Eliminare una recensione già esistente
-8. Filtrati i ristoranti
+8. Filtrare i ristoranti
 9. Creare un ristorante
 10. Modificare il proprio profilo
 ```
