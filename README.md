@@ -50,7 +50,7 @@ Permessi:
   - Visualizzare classifica ristoranti 
   - Filtrare ristoranti
   - Pubblicare, cancellare e modificare recensioni
-  - Creare un ristorante
+  - Richiedere licenza utente ristoratore
   - Modificare il proprio profilo
 
 RUOLO: Utente con ristorante
@@ -80,8 +80,7 @@ Permessi:
 6. Modificare una recensione già esistente
 7. Eliminare una recensione già esistente
 8. Filtrare i ristoranti
-9. Creare un ristorante
-10. Modificare il proprio profilo
+9. Modificare il proprio profilo
 ```
 **UTENTE CON RISTORANTE:**
 ```
@@ -107,18 +106,18 @@ Permessi:
 3. Utente inserisce dati della recensione, di cui voto, immagine, testo e ristorante recensito
 4. Utente invia la recensione
 5. Sistema invia notifica che la recensione è stata inserita oppure dà un errore se dei dati sono mancanti
-6. Utente ora può modificare o eliminare la recensione
+6. Utente ora può modificare o eliminare la sua recensione
 
 ```
 
 **FLUSSO 2: Creare ristorante**
 ```
-1. Utente effetua login
+1. Utente con ristorante effetua login
 2. Utente apre una finestra per creare un nuovo ristorante
 3. Utente scrive i dati/attributi del ristorante
 4. Utente pubblica ristorante
-5. Sistema invia notifica che il ristorante è stato pubblicato oppure dà un errore se dei dati sono mancanti
-6. Utente ora può modificare il ristorante
+5. Sistema invia notifica che il ristorante è stato pubblicato oppure dà un errore se dei dati sono mancanti, specificando quali
+6. Utente ora può modificare il proprio ristorante
 ```
 
 
