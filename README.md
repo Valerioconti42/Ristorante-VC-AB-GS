@@ -20,7 +20,7 @@ I proprietari di ristoranti possono registrarsi e accedere, inserire il ristoran
 **Analisi:**
 ```
 ENTITÀ IDENTIFICATE:
-- Ristorante (id, nome, capienza, orari, posizione_via, media_recensioni)
+- Ristorante (id, nome, capienza, orari, posizione_via)
 - Recensione (id, voto, immagine, contenuto, autore, data, ristorante_recensito)
 - Utente (id, email, password, ristoranti_gestiti)
 ```
