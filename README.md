@@ -1,4 +1,4 @@
-## PROGETTO 1: SISTEMA DI RECENSIONI PER RISTORANTI
+## PROGETTO 3: SISTEMA DI RECENSIONI PER RISTORANTI
 
 ## 📝 DESCRIZIONE PROGETTO
 Applicazione per la gestione di recensioni di ristoranti. 
